@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
+    <script src="javascripts/demo/raphael-min.js"></script>
+    <script src="javascripts/demo/guinea.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,6 +19,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
+	<style>
+		#canvas_guinea {
+			box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+		}
+	</style>
   <body>
       <div id="header">
         <nav>
@@ -40,8 +49,9 @@
 
         <h3>
 <a name="welcome-to-guinea-svg" class="anchor" href="#welcome-to-guinea-svg"><span class="octicon octicon-link"></span></a>Welcome to Guinea SVG.</h3>
-      </section>
-
+	<p>This is a simple example</p>	
+	<div id="canvas_guinea"></div>
+	</section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
